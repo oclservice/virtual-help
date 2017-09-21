@@ -48,8 +48,15 @@
       <input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
       <label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right">
         <i class="fa fa-times-thin close-virtual-help" aria-label="Close Virtual Help menu"></i>
-        <div class="chat-button">
+        <div class="chat-button" style="display:none">
           <img class="floating-button" src="https://s3.amazonaws.com/libraryh3lp.com/ca/buttons/learning-portal.png" alt="virtual help toggle"/>
+        </div>
+        <i class="chat-bubble-close fa fa-times-circle-o fa-lg" aria-hidden="true"></i>
+        <div class="chat-bubble" style="display:none">
+          <span class="chat-bubble-arrow"></span>
+          <div>
+            <span>Connect with library staff now!</span>
+          </div>
         </div>
       </label>
       <!-- /pure-toggle -->
@@ -84,7 +91,7 @@
         </div> <!-- /pure-pusher -->
       </div> <!-- /pure-pusher-container -->
     </div> <!-- /pure-container -->
-
+   
     <!-- Virtual Help chat code -->
     <script type="text/javascript" src="learning-portal.js"></script>
     <!-- end Virtual Help chat code -->
