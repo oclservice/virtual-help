@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-KV5PS33');</script>
+    <script>
+     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                                          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                                                                                                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                                                                                                      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-KV5PS33');
+    </script>
     <!-- End Google Tag Manager -->
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Virtual Help styling -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -44,7 +47,7 @@
       <!-- Virtual Help drawer toggle button -->
       <input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
       <label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right">
-        <i class="fa fa-times-thin fa-2x close-virtual-help" aria-label="Close Virtual Help menu"></i>
+        <i class="fa fa-times-thin close-virtual-help" aria-label="Close Virtual Help menu"></i>
         <div class="chat-button">
           <img class="floating-button" src="https://s3.amazonaws.com/libraryh3lp.com/ca/buttons/learning-portal.png" alt="virtual help toggle"/>
         </div>
@@ -59,8 +62,12 @@
             Virtual Help
           </h2>
           <ul class="list-unstyled list-inline chat-drawer-legend">
-            <li><i class="fa fa-comment chat-online" aria-hidden="true"></i> Chat with library staff now</li>
-            <li><i class="fa fa-envelope chat-offline" aria-hidden="true"></i> Contact your library</li>
+            <li class="chat-online">
+              <i class="fa fa-comment" aria-hidden="true"></i> Chat with library staff now
+            </li>
+            <li class="chat-offline">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Contact your library
+            </li>
           </ul>
         </div>
         <div id="virtualHelp" class="list-group"></div>
@@ -70,15 +77,12 @@
       <!-- The site content needs to be insde the pure-pusher-container and pure-pusher. -->
       <div class="pure-pusher-container">
         <div class="pure-pusher">
-          Main site content goes here.
-
           <div class="chat-button-static-icon">chat button static icon</div>
           <div class="chat-button-static-link">chat button static link</div>
+
+          <div style="height: 1500px">Main site content goes here minus the fake DIV height.</div>
         </div> <!-- /pure-pusher -->
       </div> <!-- /pure-pusher-container -->
-
-      <!-- Virtual Help drawer overlay that grays out main site content when drawer is open. -->
-      <label class="pure-overlay" for="pure-toggle-right" data-overlay="right"></label>
     </div> <!-- /pure-container -->
 
     <!-- Virtual Help chat code -->

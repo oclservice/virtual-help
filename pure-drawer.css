@@ -894,8 +894,8 @@ html, body {
 /* DRAWER */
 [data-effect="pure-effect-fade"] .pure-drawer {
   z-index: 3;
-  -webkit-animation-duration: 1000ms;
-  animation-duration: 1000ms;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
@@ -906,8 +906,8 @@ html, body {
 
 /* OVERLAY */
 [data-effect="pure-effect-fade"] .pure-overlay {
-  transition-duration: 1000ms;
-  transition-delay: 500ms; }
+  transition-duration: 500ms;
+  transition-delay: 250ms; }
 
 /*******************
 ## Effect - FlipX ##
