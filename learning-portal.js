@@ -337,16 +337,16 @@ $(function() {
 
   // Show the VH button after a short delay.
   setTimeout(function() {
-    $('.chat-button').show('slow');
+    $('.chat-button').addClass('animated pulse').show();
 
     // Lifted from: https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
     if ((document.cookie.replace(/(?:(?:^|.*;\s*)virtual-help-shhhh\s*\=\s*([^;]*).*$)|^.*$/, '$1') !== 'true')) {
       // Only show the bubble if the guest has not already viewed the VH drawer or closed the bubble.
       setTimeout(function() {
-        $('.chat-bubble').show('slow');
-      }, 5 * 1000);
+        $('.chat-bubble').addClass('animated pulse').show();
+      }, 2 * 1000);
     } else {
       removeChatBubble();
     }
-  }, 5 * 1000);
+  }, 3 * 1000);
 });

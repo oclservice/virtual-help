@@ -4,9 +4,9 @@
     <!-- Google Tag Manager -->
     <script>
      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                                                          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                                                                                                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                                                                                                      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                                                   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                                                                                             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                                                                                               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
      })(window,document,'script','dataLayer','GTM-KV5PS33');
     </script>
     <!-- End Google Tag Manager -->
@@ -17,6 +17,10 @@
     <!-- Virtual Help styling -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="pure-drawer.css"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+          integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="learning-portal.css"/>
     <!-- end Virtual Help styling -->
 
@@ -51,7 +55,9 @@
         <div class="chat-button" style="display:none">
           <img class="floating-button" src="https://s3.amazonaws.com/libraryh3lp.com/ca/buttons/learning-portal.png" alt="virtual help toggle"/>
         </div>
-        <i class="chat-bubble-close fa fa-times-circle-o fa-lg" aria-hidden="true"></i>
+        <div class="chat-bubble-close">
+          <i class="fa fa-times-thin" aria-hidden="true"></i>
+        </div>
         <div class="chat-bubble" style="display:none">
           <span class="chat-bubble-arrow"></span>
           <div>
@@ -91,7 +97,7 @@
         </div> <!-- /pure-pusher -->
       </div> <!-- /pure-pusher-container -->
     </div> <!-- /pure-container -->
-   
+
     <!-- Virtual Help chat code -->
     <script type="text/javascript" src="learning-portal.js"></script>
     <!-- end Virtual Help chat code -->
