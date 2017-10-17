@@ -179,7 +179,6 @@
 ## Pusher ##
 ***********/
 .pure-pusher {
-  position: relative;
   height: 100%;
   overflow-y: auto;
   left: 0;
