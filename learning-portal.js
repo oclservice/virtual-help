@@ -1,5 +1,4 @@
 var virtualHelpParticipants = {
-  'Algonquin': {queue: 'c_algonquin-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15633'},
   'Canadore': {queue: 'c_canadore-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15634'},
   'Centennial': {queue: 'centennial-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15635'},
   'Conestoga': {queue: 'conestoga-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15636'},
@@ -20,6 +19,7 @@ var virtualHelpParticipants = {
 };
 
 var libAnswersChatService = {
+  'Algonquin': {widgetId: 8665, url: "https://region-ca.libanswers.com/chati.php?hash=8f489cb0bfca62ac0f1dee8a6884c229"},
   'Cambrian': {widgetId: 7494, url: "https://region-ca.libanswers.com/chati.php?hash=9e325506f2798d4cdd4b4c4a7051902a"},
   'Sault': {widgetId: 8592, url: "https://region-ca.libanswers.com/chati.php?hash=517bfb0e24904307f08cd50a5234b476"},
   'Sheridan': {widgetId: 6114, url: "http://sheridancollege.libguides.com/askalibrarian", options: {height: 750, width: 725}}
