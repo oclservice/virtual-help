@@ -65,6 +65,9 @@ ul.chat-drawer-legend li {
   bottom: 40px;
   right: 75px;
 }
+input.pure-toggle {
+  opacity: 0;
+}
 .pure-toggle-label {
   border: none;
   color: #414142;
@@ -127,6 +130,7 @@ ul.chat-drawer-legend li {
   display: none;
   float: left;
   height: 20px;
+  line-height: 16px;
   margin-top: 15px;
   margin-right: 8px;
   width: 20px;
