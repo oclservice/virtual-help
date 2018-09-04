@@ -12,7 +12,7 @@ var virtualHelpParticipants = {
   'Lambton': {queue: 'lambton-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15644'},
   'Loyalist': {queue: 'c_loyalist-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15645'},
   'Mohawk': {queue: 'mohawk-library', domain: 'ca.libraryh3lp.com', skin: '13809'},
-  'Niagara': {queue: 'oclslearningportal', domain: 'ca.libraryh3lp.com', skin: '15647'},
+  'Niagara': {queue: 'oclslearningportal', domain: 'ca.libraryh3lp.com', skin: '15339'},
   'Seneca': {queue: 'seneca-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15648'},
   'St. Clair': {queue: 'st_clair-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15649'},
   'St. Lawrence': {queue: 'c_st_lawrence-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15650'}
