@@ -1,3 +1,5 @@
+var animateChatButton = true;
+
 var virtualHelpParticipants = {
   'Canadore': {queue: 'c_canadore-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15634'},
   'Centennial': {queue: 'centennial-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15635'},
@@ -335,18 +337,22 @@ $(function() {
     //checkLocalServiceHours(college);
   });
 
-  // Show the VH button after a short delay.
-  setTimeout(function() {
-    $('.chat-button').addClass('animated pulse').show();
+  if (animateChatButton === true) {
+    // Show the VH button after a short delay.
+    setTimeout(function() {
+      $('.chat-button').addClass('animated pulse').show();
 
-    // Lifted from: https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
-    if ((document.cookie.replace(/(?:(?:^|.*;\s*)virtual-help-shhhh\s*\=\s*([^;]*).*$)|^.*$/, '$1') !== 'true')) {
-      // Only show the bubble if the guest has not already viewed the VH drawer or closed the bubble.
-      setTimeout(function() {
-        $('.chat-bubble').addClass('animated pulse').show();
-      }, 2 * 1000);
-    } else {
-      removeChatBubble();
-    }
-  }, 3 * 1000);
+      // Lifted from: https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
+      if ((document.cookie.replace(/(?:(?:^|.*;\s*)virtual-help-shhhh\s*\=\s*([^;]*).*$)|^.*$/, '$1') !== 'true')) {
+        // Only show the bubble if the guest has not already viewed the VH drawer or closed the bubble.
+        setTimeout(function() {
+          $('.chat-bubble').addClass('animated pulse').show();
+        }, 2 * 1000);
+      } else {
+        removeChatBubble();
+      }
+    }, 3 * 1000);
+  } else {
+    $('.chat-button').show();
+  }
 });
