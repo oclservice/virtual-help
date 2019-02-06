@@ -1,23 +1,23 @@
 var animateChatButton = true;
 
 var virtualHelpParticipants = {
-  'Canadore': {queue: 'c_canadore-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15634'},
+  'Canadore': {queue: 'canadore-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15634'},
   'Centennial': {queue: 'centennial-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15635'},
   'Conestoga': {queue: 'conestoga-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15636'},
   'Confederation': {queue: 'confederation-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15637'},
   'Durham': {queue: 'durham-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15638'},
   'Fanshawe': {queue: 'fanshawe-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15639'},
-  'Fleming': {queue: 'c_fleming-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15640'},
+  'Fleming': {queue: 'fleming-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15640'},
   'George Brown': {queue: 'george_brown-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15641'},
   'Georgian': {queue: 'georgian-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15642'},
   'Humber': {queue: 'humber-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15643'},
   'Lambton': {queue: 'lambton-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15644'},
-  'Loyalist': {queue: 'c_loyalist-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15645'},
+  'Loyalist': {queue: 'loyalist-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15645'},
   'Mohawk': {queue: 'mohawk-library', domain: 'ca.libraryh3lp.com', skin: '13809'},
   'Niagara': {queue: 'oclslearningportal', domain: 'ca.libraryh3lp.com', skin: '15339'},
   'Seneca': {queue: 'seneca-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15648'},
   'St. Clair': {queue: 'st_clair-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15649'},
-  'St. Lawrence': {queue: 'c_st_lawrence-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15650'}
+  'St. Lawrence': {queue: 'st_lawrence-learning-portal', domain: 'ca.libraryh3lp.com', skin: '15650'}
 };
 
 var libAnswersChatService = {
